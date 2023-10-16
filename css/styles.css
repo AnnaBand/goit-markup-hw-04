@@ -349,8 +349,14 @@ img {
     height: 40px;
 }
 
-.socials-icon:hover {
+.socials-icon:hover,
+.socials-icon:focus {
     background-color: var(--pressed-state-color);
+}
+
+.s-i-footer:hover,
+.s-i-footer:focus {
+    background-color: var(--success-color);
 }
 
 .customers-icon {
