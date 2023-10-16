@@ -329,3 +329,17 @@ img {
     height: 40px;
 }
 
+.socials-item:hover {
+    background-color: var(--pressed-state-color);
+}
+
+.icon-box {
+    background-color: var(--light-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
