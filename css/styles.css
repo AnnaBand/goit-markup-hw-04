@@ -372,3 +372,17 @@ img {
 .li-customers {
     width: calc((100% - 5 * 24px) / 6);
 }
+
+.headerthree-footer {
+    color: var(--white-background-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    display: flex;
+    gap: 120px;
+}
