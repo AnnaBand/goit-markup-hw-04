@@ -335,6 +335,13 @@ img {
     justify-content: center;
 }
 
+.socials-links-footer {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+    justify-content: center;
+}
+
 .li-socials {
     width: calc((100% - 3 * 24) / 4);
 }
@@ -400,8 +407,11 @@ img {
 
 .footer {
     display: flex;
-    gap: 120px;
     align-items: baseline;
+}
+
+.footertwo {
+    margin-right: 120px;
 }
 
 .portfolio-style {
