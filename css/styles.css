@@ -389,14 +389,10 @@ img {
     fill: currentColor;
 }
 
-.svg:hover,
-.svg:focus {
-    fill: var(--pressed-state-color);
-}
-
 .customers-icon:hover,
 .customers-icon:focus {
     border: 1px solid var(--pressed-state-color);
+    color: var(--pressed-state-color)
 }
 
 .li-customers {
