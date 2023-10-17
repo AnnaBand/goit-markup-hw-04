@@ -122,7 +122,7 @@ body {
     background-color: var(--dark-color);
     padding: 188px 0;
     margin: 0 auto;
-    background-image: linear-gradient(var(--hero-background-color), var(--hero-background-color)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -361,7 +361,7 @@ img {
 }
 
 .svg-sm {
-    fill: var(--light-color)
+    fill: var(--light-color);
 }
 
 .socials-icon:hover,
@@ -391,7 +391,7 @@ img {
 
 .svg:hover,
 .svg:focus {
-    fill: var(--pressed-state-color);
+    color: var(--pressed-state-color);
 }
 
 .customers-icon:hover,
@@ -429,12 +429,15 @@ img {
 .portfolio-style:hover,
 .portfolio-style:focus {
     box-shadow:
-0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.button-shadow:hover,
-.button-shadow:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.filter-button:hover,
+.filter-button:focus {
+    box-shadow:
+    0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
